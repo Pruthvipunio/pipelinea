@@ -10,15 +10,15 @@ pipeline {
         sh 'sleep 5'
       }
     }
-
-     stage ('TEST') {
+    
+    stage ('TEST') {
       steps {
         echo "This is Built stage"
         sh 'sleep 5'
       }
     }
-
-     stage ('DEPLOY') {
+     
+    stage ('DEPLOY') {
       steps {
         echo "This is Built stage"
         sh 'sleep 5'
