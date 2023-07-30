@@ -7,18 +7,6 @@ pipeline {
           sh 'sleep 5'
         }
      }
-stage ('TEST') {
-        steps {
-          echo "this is build"
-          sh 'sleep 5'
-        }
-     }
-stage ('DEPOLOY') {
-        steps {
-          echo "this is build"
-          sh 'sleep 5'
-        }
-     }
   }
 
 }
