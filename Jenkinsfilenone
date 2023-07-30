@@ -2,18 +2,22 @@ pipeline {
   agent none
   stages {
      stage ('BUILD') {
-       steps {
-       }
+        steps {
+          echo "this is build"
+          sh 'sleep 5'
+        }
      }
-stages {
-     stage ('BUILD') {
-       steps {
-       }
+stage ('TEST') {
+        steps {
+          echo "this is build"
+          sh 'sleep 5'
+        }
      }
-stages {
-     stage ('BUILD') {
-       steps {
-       }
+stage ('DEPOLOY') {
+        steps {
+          echo "this is build"
+          sh 'sleep 5'
+        }
      }
   }
 
