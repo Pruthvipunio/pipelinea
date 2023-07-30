@@ -1,0 +1,20 @@
+pipeline {
+  agent none
+  stages {
+     stage ('BUILD') {
+       steps {
+       }
+     }
+stages {
+     stage ('BUILD') {
+       steps {
+       }
+     }
+stages {
+     stage ('BUILD') {
+       steps {
+       }
+     }
+  }
+
+}
